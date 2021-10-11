@@ -6,10 +6,10 @@ const Navbar = () => {
         <div className='navbar'>
             <div className='sections'>
                 <div className='puellae'>
-                    <i class="fas fa-venus"></i>
+                    <i class="fas fa-venus">Puellae</i>
                 </div>
                 <div className='pueri'>
-                    <i class="fas fa-mars"></i>
+                    <i class="fas fa-mars">Pueri</i>
                 </div>
             </div>
         </div>

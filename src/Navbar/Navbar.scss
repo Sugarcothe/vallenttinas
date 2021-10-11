@@ -1,10 +1,27 @@
 .navbar {
-    .sections {
-        .puellae {
+    margin: 0;
 
+    .sections {
+        display: flex;
+        flex-direction: row;
+ 
+        .puellae {
+            background-color: red;
+            min-width: 50vw;
+            
+            i {
+                color: white;
+                align-items: center;
+            }
         }
         .pueri {
+            background-color: rgb(9, 33, 167);
+            min-width: 50vw;
             
+            i {
+                color: white;
+                align-items: center;
+            }
         }
     }
 }
