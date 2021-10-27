@@ -6,16 +6,16 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='sections'>
-                <div className='puellae'>
-                    <Link to='/Pullae'>
+                <Link to='/Pullae'>
+                    <div className='puellae'>
                         <i class="fas fa-venus">Puellae</i>
-                    </Link>
-                </div>
-                <div className='pueri'>
-                    <Link to='/Pueri'>
+                    </div>
+                </Link>
+                <Link to='/Pueri'>
+                    <div className='pueri'>
                         <i class="fas fa-mars">Pueri</i>
-                    </Link>
-                </div>
+                    </div>
+                </Link>
             </div>
         </div>
     )
