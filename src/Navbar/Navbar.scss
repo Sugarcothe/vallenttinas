@@ -1,3 +1,5 @@
+@import '../global.scss';
+
 .navbar {
     margin: 0;
 
@@ -6,21 +8,23 @@
         flex-direction: row;
  
         .puellae {
-            background-color: red;
+            background-color:$female-color;
             min-width: 50vw;
             
             i {
-                color: white;
+                color: $male-color;
                 align-items: center;
+                margin: 2rem;
             }
         }
         .pueri {
-            background-color: rgb(9, 33, 167);
+            background-color: $male-color;
             min-width: 50vw;
             
             i {
-                color: white;
+                color: $female-color;
                 align-items: center;
+                margin: 2rem;
             }
         }
     }

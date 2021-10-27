@@ -1,11 +1,24 @@
 import './App.css';
 import Navbar from './Navbar/Navbar';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Puellae from './Puellae/Puellae'
+
 
 function App() {
   return (
-    <div className="App">
+    
+    <Router>
       <Navbar/>
-    </div>
+      <div className="App">
+        <Switch>
+          <Route path='/Puellae' exact component={Puellae}/>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

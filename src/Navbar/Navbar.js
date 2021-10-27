@@ -1,15 +1,20 @@
 import React from 'react';
 import './Navbar.scss';
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='sections'>
                 <div className='puellae'>
-                    <i class="fas fa-venus">Puellae</i>
+                    <Link to='/Pullae'>
+                        <i class="fas fa-venus">Puellae</i>
+                    </Link>
                 </div>
                 <div className='pueri'>
-                    <i class="fas fa-mars">Pueri</i>
+                    <Link to='/Pueri'>
+                        <i class="fas fa-mars">Pueri</i>
+                    </Link>
                 </div>
             </div>
         </div>
